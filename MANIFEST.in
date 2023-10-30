@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include expiry *.css
+recursive-include expiry *.csv
+recursive-include expiry *.html
+recursive-include expiry *.ico
+recursive-include expiry *.js
+recursive-include expiry *.json
+recursive-include expiry *.md
+recursive-include expiry *.png
+recursive-include expiry *.py
+recursive-include expiry *.svg
+recursive-include expiry *.txt
+recursive-exclude expiry *.pyc
